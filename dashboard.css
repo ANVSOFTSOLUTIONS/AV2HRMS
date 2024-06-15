@@ -1,0 +1,226 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+.nav{
+    
+position:fixed;
+        top:0px;
+        bottom:0px;
+        left:0px;
+}
+
+
+.kish::-webkit-scrollbar{
+
+
+    width:8px;
+  }.kish::-webkit-scrollbar-thumb{
+      background-color:blue;
+      border-radius: 10px;
+  }
+.kish{
+    position: absolute;
+    top:0px;
+    bottom:0px;
+    left:0px;
+    background-color:pink;
+    margin-left: -15px;
+    padding: 20px;
+    list-style-type: none;
+    overflow-y: scroll;
+}
+.kish li{
+    padding:50px;
+}
+
+.kish a{
+    text-decoration: none;
+    
+}
+.kish h1{
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.click1{
+    margin-left:75px;
+    margin-top: -40px;
+    font-size: 20px;
+}
+.click{
+    margin-left: 25px;
+    margin-top: 20px;
+    color: blue;
+}
+.kish hr{
+    margin-top:20px;
+   
+}
+.user1{
+    margin-left:75px;
+    margin-top: -40px;
+    font-size: 20px;
+}
+.user{
+    margin-top: 20px;
+    margin-left:25px;
+    color:blue;
+}
+.Tablelist1{
+    margin-left:75px;
+    margin-top: -40px;
+    font-size: 20px;
+}
+.Tablelist{
+    margin-top: 20px;
+    margin-left:25px;
+    color:blue;
+}
+.typo1{
+    margin-left:75px;
+    margin-top: -42px;
+    font-size: 20px;
+}
+.typo{
+    margin-top: 20px;
+    margin-left:25px;
+    color:blue;
+}
+.icon1{
+    margin-left:75px;
+    margin-top: -40px;
+    font-size: 20px;
+}
+.icon{
+    margin-top: 20px;
+    margin-left:25px;
+    color:blue;
+}
+.Maps1{
+    margin-left:75px;
+    margin-top: -40px;
+    font-size: 20px;
+}
+.Maps{
+    margin-top: 20px;
+    margin-left:25px;
+    color:blue;
+}
+.Notifaction1{
+    margin-left:75px;
+    margin-top: -40px;
+    font-size: 20px;
+}
+.Notifaction{
+    margin-top: 20px;
+    margin-left:25px;
+    color:blue;
+}
+.RTLsupport1{
+    margin-left:75px;
+    margin-top: -38px;
+    font-size: 20px;
+}
+.RTLsupport{
+    margin-top: 20px;
+    margin-left:25px;
+    color:blue;
+    
+}
+
+.Name1{
+    margin-left:75px;
+    margin-top: -40px;
+    font-size: 20px;
+}
+.Name{
+    margin-top: 20px;
+    margin-left:25px;
+    color:blue;
+}
+.click svg{
+    border: 5px solid white;
+    border-radius: 5px;
+    background-color: white;
+}
+.user svg{
+    border: 5px solid white;
+    border-radius: 5px;
+    background-color: white;
+}
+.Tablelist svg{
+    border: 5px solid white;
+    border-radius: 5px;
+    background-color: white;
+}
+.Notifaction svg{
+    border: 5px solid white;
+    border-radius: 5px;
+    background-color: white;
+}
+.icon svg{
+    border: 5px solid white;
+    border-radius: 5px;
+    background-color: white;
+}
+.Maps svg{
+    border: 5px solid white;
+    border-radius: 5px;
+    background-color: white;
+}.typo svg{
+    border: 5px solid white;
+    border-radius: 5px;
+    background-color: white;
+}.RTLsupport svg{
+    border: 5px solid white;
+    border-radius: 5px;
+    background-color: white;
+}.Name svg{
+    border: 5px solid white;
+    border-radius: 5px;
+    background-color: white;
+}
+.tabcontent{
+    display: none;
+    margin-left: 500px;
+    margin-top: 100px;
+ 
+}
+.metting1{
+    
+
+
+width:450px;
+    background-color:white;
+    margin-left:-120px;
+    border:2px solid black;
+    border-radius:10px;
+    margin-top:200px;
+    height:400px;
+    margin-left: 380px;
+
+}
+.metting1 li{
+    display: inline;
+    padding: 10px;
+}
+.metting1 ul{
+    background-color: aquamarine;
+    padding:10px;
+}.metting1 h3{
+    text-align: center;
+    margin-left: -30px;
+}.container3  li{
+   display: inline-flex;
+   padding:30px;
+   margin-top:-60px;
+   
+}.container3{
+    width:1100px;
+    background-color:light white;
+    border-radius:10px;
+    border:2px solid black;
+    margin-left:-260px;
+    margin-top:20px;
+    height:150px;  
+}
