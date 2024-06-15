@@ -1,0 +1,131 @@
+<!DOCTYPhtml>
+<link rel="stylesheet" href="/static/loginpage.css">
+
+
+<body  text-align:center; >
+
+  <nav>
+    <div class="logo">Anv</div>
+                <ul>
+                    <li>Home</a></li>
+                    <li>Register</li>
+                    <li>Log in</li>
+                </ul>
+                </div>
+  </nav>
+<div class="center">
+
+   <h1> Register For An Account</h1> 
+   <form action="\" method="post" name="myform" action="/" method="post" onsubmit="return validfname(document.myform.fname)&&validlname(document.myform.lname) &&validateEmail(document.myform.email)&& validatpassword()">
+      
+       <div><label for="email" >Email Address:</label><br>
+         <input type="text" id="email" name="email" value="" maxlength="500" size="30"  style="padding:10px;" onkeyup="return validateEmail(document.myform.email)" required><br>
+         <span style="color: rgb(245, 4, 4);" id="error_id"></span><br>
+      </div>
+       <label for="phone">User Name:</label><br>
+       <input type="text" id="name" name="uname" value=""  maxlength="500" size="30"  style="padding:10px;" required><br><br>
+      
+
+
+       <div>
+        <label for="phone">Frist Name:</label><br>
+        <input type="text" id="fname" name="fname" value=""  maxlength="500" size="30"  style="padding:10px;"  onkeyup="return validfname(document.myform.fname)" required><br>
+        <span style="color: rgb(245, 4, 4);" id="error_fname"></span><br>
+        </div>
+
+       <div>
+       <label for="phone">Last Name:</label><br>
+       <input type="text" id="lname" name="lname" value=""  maxlength="500" size="30"  style="padding:10px;" onkeyup="return validlname(document.myform.lname)" required><br>
+       <span style="color: rgb(245, 4, 4);" id="error_lname"></span><br>
+       </div>
+        
+        <div>
+        <label for="phone">Password:</label><br>
+        <input id="pass" type="password"   maxlength="500" size="50"   name="pass" style="padding:10px;" onkeyup="return validatpassword()" required><br><br>
+       </div>
+       <div>
+         <label for="phone">confirm Password:</label><br>
+         <input type="text" id="confirm_pass" name="confirm_pass" value=""  maxlength="200" size="30"  style="padding:10px;"  onkeyup="validate_password()"
+        required><br><span style="color: #f10707;" id="error_pass"></span><br>
+      </div> 
+<input type="submit" value="login">
+   </form>
+  
+  
+  
+  <script>
+
+ 
+function validateEmail(inputText) {  
+  var mailFormat =  /\S+@\S+\.\S+/;
+  var error_id= document.getElementById("error_id")
+  if (inputText.value.match(mailFormat)) {
+    error_id.textContent="";
+    return true;
+   
+  } else {
+   
+    error_id.textContent="plz valid email";
+      return false; 
+  }
+}
+function validatpassword(){
+    var password=document.myform.pass.value;
+    var error_pass = document.getElementById("error_pass")
+    var password1=document.myform.confirm_pass.value;
+
+      if (password==password1){
+        error_pass.innerHTML="";
+        return true;
+        
+      }else{
+        error_pass.innerHTML="use same password"
+        
+        return false;
+}
+}
+function validfname(inputText){ 
+ 
+  var regex = /^[A-Za-z ]+$/;
+  
+  var error_fname= document.getElementById("error_fname")
+  if (inputText.value.match(regex)) {
+    error_fname.innerHTML="";
+    return true;
+   
+  } else {
+   
+    error_fname.innerHTML="Only Alphabets are allowed.";
+      return false; 
+  }
+
+}
+
+function validlname(inputText){
+ 
+ var regex = /^[A-Za-z ]+$/;
+ 
+ var error_lname= document.getElementById("error_lname")
+ if (inputText.value.match(regex)) {
+   error_lname.innerHTML="";
+   return true;
+  
+ } else {
+  
+   error_lname.innerHTML="Only Alphabets are allowed.";
+     return false; 
+ }
+
+}
+
+   </script>
+</body>
+  
+<footer>
+  <div class="logo1">Anv</div>
+</footer>
+</html>
+    
+    
+   
+    
